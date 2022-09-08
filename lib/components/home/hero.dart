@@ -30,18 +30,23 @@ class HeroComponent extends StatelessWidget{
           SizedBox(height:10),
           Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry.",style: TextStyle(color: Color(0xff3A3A3A),fontSize: 14)),
           SizedBox(height:20),
-          Container(
-            child: Text("Read More"),
-            padding: EdgeInsets.symmetric(vertical: 5,horizontal: 10),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
-              border: Border.all(
-                color: Color(0xff1698DA),
-                width: 1,
+          GestureDetector(
+            onTap: (){
+              print("ok");
+            },
+           child :    Container(
+             child: Text("Read More"),
+             padding: EdgeInsets.symmetric(vertical: 5,horizontal: 10),
+             decoration: BoxDecoration(
+                 borderRadius: BorderRadius.circular(20),
+                 border: Border.all(
+                   color: Color(0xff1698DA),
+                   width: 1,
 
-              )
-            ),
-          )
+                 )
+             ),
+           )
+         )
         ],
       ),
     );

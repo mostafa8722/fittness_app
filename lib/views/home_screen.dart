@@ -2,7 +2,12 @@
 import 'package:flutter/material.dart';
 
 import '../components/home/about_fitness.dart';
+import '../components/home/blog_container.dart';
+import '../components/home/class_container.dart';
+import '../components/home/galler_container.dart';
 import '../components/home/hero.dart';
+import '../components/home/time_table_container.dart';
+import '../components/home/trainer_container.dart';
 
 class HomeScreen extends StatelessWidget{
 
@@ -18,6 +23,11 @@ class HomeScreen extends StatelessWidget{
           children: [
             HeroComponent(),
             AboutFitnessComponent(),
+            ClassComponent(),
+            TimeComponent(),
+            TrainerComponent(),
+            GalleryComponent(),
+            BlogComponent(),
           ],
         ),
       ),
