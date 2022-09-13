@@ -22,7 +22,7 @@ class SplashScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Fitness App")
+            Text("Fitness App ")
           ],
         ),
       ),
